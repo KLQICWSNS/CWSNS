@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32407.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericalCWS2D", "NumericalCWS2D\NumericalCWS2D.csproj", "{497C5F9B-2AFB-4CAE-AF57-148BA59D6321}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{497C5F9B-2AFB-4CAE-AF57-148BA59D6321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497C5F9B-2AFB-4CAE-AF57-148BA59D6321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497C5F9B-2AFB-4CAE-AF57-148BA59D6321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497C5F9B-2AFB-4CAE-AF57-148BA59D6321}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54E476D6-AA18-4D67-80A6-1125E990EE6B}
+	EndGlobalSection
+EndGlobal
