@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Numerics;
 using System.Runtime.InteropServices;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -34,6 +29,8 @@ namespace NumericalCWS2D
             var ci = new System.Globalization.CultureInfo("en-US");
             Thread.CurrentThread.CurrentCulture = ci;
             Thread.CurrentThread.CurrentUICulture = ci;
+            var v = Application.ProductVersion;
+            this.Text = "Coincidence Wavefront Sensing Numerical Simulation v" + v.Substring(0, v.LastIndexOf('.'));
             Algor.mw = this;
             Monte.mw = this;
             sfw = new SetFuncWindow();
@@ -1108,7 +1105,7 @@ namespace NumericalCWS2D
             {
                 if (MessageBox.Show("The previous reconstruction result will be overwritten. Would you like to continue?", Monte.MsgTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No) return;
             }
-            ParseValues();
+            if (!ParseValues()) return;
             if (!DrawTheoreticalPhase()) return;
             foreach (Control i in todisable2) i.Enabled = false;
             Cursor = Cursors.WaitCursor;

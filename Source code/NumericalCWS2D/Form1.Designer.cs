@@ -929,7 +929,7 @@ namespace NumericalCWS2D
             // 
             this.linkLabel1.ActiveLinkColor = System.Drawing.Color.Purple;
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(713, 39);
+            this.linkLabel1.Location = new System.Drawing.Point(711, 39);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(45, 15);
             this.linkLabel1.TabIndex = 999999;
@@ -945,9 +945,9 @@ namespace NumericalCWS2D
             this.label19.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.label19.Location = new System.Drawing.Point(356, 39);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(353, 15);
+            this.label19.Size = new System.Drawing.Size(359, 15);
             this.label19.TabIndex = 67;
-            this.label19.Text = "Developed by CAS Key Laboratory of Quantum Information, USTC";
+            this.label19.Text = "Developed by CAS Key Laboratory of Quantum Information, USTC. ";
             // 
             // Form1
             // 

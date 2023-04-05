@@ -128,9 +128,9 @@ namespace NumericalCWS2D
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(109, 465);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(471, 19);
+            this.label4.Size = new System.Drawing.Size(419, 19);
             this.label4.TabIndex = 33;
-            this.label4.Text = "Please do not input unusual codes as they may have unexpected outcomes.";
+            this.label4.Text = "The code will be run on your computer. Please be responsible for it.";
             // 
             // label2
             // 
