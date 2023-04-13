@@ -1,7 +1,7 @@
 # Coincidence Wavefront Sensing Numerical Simulation
 A numerical simulation program written in C\# baesd on Microsoft .NET Framework 4.5 to generate biphoton coincident counts and reconstruct the biphoton spatial wavefunction.
 
-**Related article (to be published):** https://journals.aps.org/pra/accepted/33075Yc7H771808e065e17e261e265647474512bb
+**Related article:** https://journals.aps.org/pra/abstract/10.1103/PhysRevA.107.042608
 
 **Preprint:** https://arxiv.org/abs/2304.00236
 
